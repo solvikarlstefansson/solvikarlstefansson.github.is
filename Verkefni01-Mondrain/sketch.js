@@ -2,7 +2,7 @@
 
 function setup() {
   createCanvas(800, 800);
-  background(250,0,0);
+  background(0,250,0);
   frameRate(4);
 }
 
@@ -29,9 +29,9 @@ function draw() {
 function setup(){
     createCanvas(600,600);
     background(0,250,0);
-    fill(100);
-    ellipse(30,100,50,50);
     fill(0);
+    ellipse(30,100,50,50);
+    fill(100);
     textSize(30);
     text("Halló heimur",70,30);
 }
