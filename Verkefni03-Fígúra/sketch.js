@@ -1,8 +1,8 @@
 // Hér kemur kóðinn þinn:
 var bukur = 100;
 var litur = 100;
-var h =100;
-var j = 0;
+var h =130;
+var j = 10;
 
 function setup(){
     createCanvas(600,600);
