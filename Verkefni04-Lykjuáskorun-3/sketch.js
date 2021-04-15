@@ -1,4 +1,4 @@
-var fjoldi = 1;
+var magn = 1;
 
 function setup() {
   createCanvas(400,400);
@@ -10,8 +10,8 @@ function setup() {
 function draw() {
   background(255, 215, 0);
   for(var y = 20; y < height; y = y + 30){
-    fjoldi = random (0,13);
-    for(var i = 0; i < fjoldi; i++){
+    magn = random (0,13);
+    for(var i = 0; i < magn; i++){
       ellipse(15 + i*30,y,10,10);
     }
   }
