@@ -36,6 +36,7 @@ function draw(){
 
   for(var r = 0; r <= width ; r = r + 1){
     for(var f = 0; f <= height+300 ; f = f+1 ){
+      noStroke();
       fill(260,random(0,100),100);
     ellipse(10+r*20,10+f*10,4,4);
   }
