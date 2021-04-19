@@ -1,11 +1,11 @@
 var l = 40;
-var x = 400;
+var x = 200;
 var y =200;
 var f = 100;
 
 function setup() {
   createCanvas(400,400);
-  frameRate(100);
+  frameRate(300);
   strokeWeight(2);
   background(0,0,250);
   colorMode(HSB);
@@ -14,17 +14,17 @@ function setup() {
 
 function draw(){
   fill(0,100,0);
-  rect(x,200,x,400)
+  rect(x*2,200,x*2,400)
   fill(54,100,100);
-  ellipse(x,100,80,80);
+  ellipse(x*2,100,80,80);
   x--
   if(x<=0){
-    x=400;
+    x=200;
   }
 
   fill(24,100,37);
   rect(150,250,50,150);
-  frameRate(4);
+  frameRate(8);
   fill(l,100,100);
   l++
   if(l>=100){
